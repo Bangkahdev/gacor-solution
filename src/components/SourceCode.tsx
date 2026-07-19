@@ -215,5 +215,3 @@ const SourceCode: React.FC = () => {
 };
 
 export default SourceCode;
-/ /   t r i g g e r   u p d a t e  
- 
