@@ -6,9 +6,10 @@ import SEO from './SEO';
 // Import gambar dari folder lokal
 import muslimLifeImg from '../assets/images/muslim-life.png';
 import absensiKaryawanImg from '../assets/images/absensi-karyawan.png';
-import gudangTugasImg from '../assets/images/gudang-tugas.png';
 import akademikKampusImg from '../assets/images/akademik-kampus.png';
 import portfolioImg from '../assets/images/portfolio.png';
+import galeriImg from '../assets/images/galeri.png';
+import islamicBlogImg from '../assets/images/islamicBlog.png';
 
 interface SourceCodeProject {
   id: number;
@@ -45,16 +46,16 @@ const SourceCode: React.FC = () => {
       rating: 4.8,
       imageUrl: absensiKaryawanImg
     },
-    {
-      id: 3,
-      name: 'Gudang Tugas / Manajemen Tugas Mahasiswa',
-      description: 'Platform tugas & catatan kuliah dengan opsi premium verifikasi.',
-      price: 'Rp 200.000',
-      features: ['Upload tugas', 'To-do list', 'Verifikasi premium', 'User & Admin'],
-      technology: 'PHP, HTML, CSS',
-      rating: 4.7,
-      imageUrl: gudangTugasImg,
-    },
+    // {
+    //   id: 3,
+    //   name: 'Gudang Tugas / Manajemen Tugas Mahasiswa',
+    //   description: 'Platform tugas & catatan kuliah dengan opsi premium verifikasi.',
+    //   price: 'Rp 200.000',
+    //   features: ['Upload tugas', 'To-do list', 'Verifikasi premium', 'User & Admin'],
+    //   technology: 'PHP, HTML, CSS',
+    //   rating: 4.7,
+    //   imageUrl: gudangTugasImg,
+    // },
     {
       id: 4,
       name: 'Sistem Akademik Kampus',
@@ -75,6 +76,26 @@ const SourceCode: React.FC = () => {
       rating: 4.8,
       imageUrl: portfolioImg,
       liveUrl: 'https://portfolio-bangkahs-projects.vercel.app'
+    },
+    {
+      id: 6,
+      name: 'Web Galeri',
+      description: 'Web galeri foto privat berbasis React + Vite dengan penyimpanan foto di Supabase Storage dan metadata di tabel photos.',
+      price: 'Rp 150.000',
+      features: ['Login private username/password(tanpa register)', 'Upload multi foto', 'Favorit, Rename, Hapus satu, Hapus semua', 'Pencarian dan filter favorit', 'Lightbox preview'],
+      technology: 'React.js, supabase',
+      rating: 4.5,
+      imageUrl: galeriImg
+    },
+    {
+      id: 7,
+      name: 'islamic blog',
+      description: 'Blog Islam adalah aplikasi web dinamis yang memungkinkan pengguna untuk membuat, membaca, mengupdate, dan menghapus konten berbasis tema Islam. Aplikasi ini dilengkapi dengan API yang dapat diintegrasikan dengan proyek lain dan interface yang responsif serta user-friendly.',
+      price: 'Rp 200.000',
+      features: ['Create, read, update, delete content', 'Responsive design', 'User-friendly interface', 'API integration'],
+      technology: 'React.js, supabase',
+      rating: 4.5,
+      imageUrl: islamicBlogImg
     }
   ];
 
@@ -187,8 +208,8 @@ const SourceCode: React.FC = () => {
             Request Custom Source Code
           </button>
         </div>
-      </div>
-    </section>
+
+      </section>
     </>
   );
 };

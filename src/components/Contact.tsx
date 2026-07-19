@@ -2,7 +2,6 @@ import React from 'react';
 import { MessageCircle, Mail, Instagram, Facebook, MapPin, Clock, Phone } from 'lucide-react';
 import { sendWhatsAppMessage } from '../utils/whatsapp';
 import SEO from './SEO';
-import SEO from './SEO'; // pastikan komponen SEO sudah ada
 
 const Contact: React.FC = () => {
   const handleWhatsAppClick = () => {
@@ -56,7 +55,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">WhatsApp (Utama)</h4>
-                      <p className="text-gray-600">+6289505366193</p>
+                      <p className="text-gray-600">+623170687631</p>
                       <p className="text-sm text-gray-500">Response time: &lt; 1 jam</p>
                     </div>
                   </div>
@@ -205,7 +204,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </section>
-    </>
+    </section>
     </>
   );
 };
