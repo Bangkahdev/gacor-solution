@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Selamat Datang di{' '}
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text">
                 GacorSolution
               </span>
             </h1>
